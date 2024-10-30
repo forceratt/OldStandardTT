@@ -5,6 +5,9 @@
   src: url(../fonts/OldStandardTT-Bold.ttf) format(truetype);
 }
 
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: rgba(22, 20, 31, 1);
   width: 1440px;
@@ -12,6 +15,7 @@ body {
   padding: 130px 50px 0 50px;
   font-family: "Old Standard TT";
   color: white;
+  overflow-x: hidden;
 }
 
 .section {
@@ -117,6 +121,7 @@ body {
   font-size: 150px;
   margin-right: auto;
   margin-left: 50px;
+  height: 0px;
 }
 
 .airplane {
@@ -130,6 +135,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 1200px;
 }
 
 .walls {
